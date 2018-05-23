@@ -1,0 +1,14 @@
+import  com.hankcs.hanlp.HanLP;
+import com.hankcs.hanlp.tokenizer.StandardTokenizer;
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  System.out.println(HanLP.segment("你好，欢迎使用HanLP！"));
+		  //标准分词
+		  List<Term> termList = StandardTokenizer.segment("商品和服务");
+		  System.out.println(termList);
+	
+	}
+
+}

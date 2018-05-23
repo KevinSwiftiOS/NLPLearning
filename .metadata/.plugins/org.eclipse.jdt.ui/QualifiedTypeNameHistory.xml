@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.hankcs.hanlp.tokenizer.StandardTokenizer"/>
+<fullyQualifiedTypeName name="com.hankcs.hanlp.seg.common.Term"/>
+<fullyQualifiedTypeName name="com.hankcs.hanlp.tokenizer.NLPTokenizer"/>
+<fullyQualifiedTypeName name="com.hankcs.hanlp.tokenizer.IndexTokenizer"/>
+<fullyQualifiedTypeName name="com.hankcs.hanlp.seg.Segment"/>
+<fullyQualifiedTypeName name="com.hankcs.hanlp.seg.NShort.NShortSegment"/>
+<fullyQualifiedTypeName name="com.hankcs.hanlp.seg.Dijkstra.DijkstraSegment"/>
+</qualifiedTypeNameHistroy>

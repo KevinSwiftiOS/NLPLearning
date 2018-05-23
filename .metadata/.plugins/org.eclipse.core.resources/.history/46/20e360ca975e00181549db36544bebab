@@ -1,0 +1,18 @@
+import  com.hankcs.hanlp.HanLP;
+import com.hankcs.hanlp.seg.common.Term;
+import com.hankcs.hanlp.tokenizer.NLPTokenizer;
+import com.hankcs.hanlp.tokenizer.StandardTokenizer;
+import java.util.*;
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  System.out.println(HanLP.segment("你好，欢迎使用HanLP！"));
+		  //标准分词
+		  List<Term> termList = StandardTokenizer.segment("商品和服务");
+		  System.out.println(termList);
+	     //NLP分词
+		  System.out.println(NLPTokenizer.segment("我新造一个词叫幻想乡你能识别并标注正确词性吗？"));
+	}
+
+}
